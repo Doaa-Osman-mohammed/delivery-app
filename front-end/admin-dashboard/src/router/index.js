@@ -8,6 +8,7 @@ import OrderDetails from '../views/OrderDetails.vue'
 import EditProduct from '../views/EditProduct.vue'
 import AddProduct from '../views/AddProduct.vue'
 import lastPayments from '../views/lastPayments.vue'
+import LoginPage from '../views/LoginPage.vue'
 
 const routes = [
   {
@@ -54,6 +55,11 @@ const routes = [
     path:"/lastPayments",
     name:"lastPayments",
     component:lastPayments
+  },
+  {
+    path:"/LoginPage",
+    name:"LoginPage",
+    component:LoginPage
   }
 ]
 
